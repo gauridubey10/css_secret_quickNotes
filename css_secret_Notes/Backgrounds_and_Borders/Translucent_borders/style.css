@@ -1,0 +1,5 @@
+body {
+  background: purple;
+  border: 5px solid hsla(0, 0%, 100%, 0.5);
+  background-clip: padding-box; /*  The background extends to the inside edge of the border */
+ }

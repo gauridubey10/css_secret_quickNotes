@@ -1,0 +1,27 @@
+body {
+    background: yellowgreen;
+    box-shadow: 0 0 0 10px #655, 0 0 0 15px deeppink, 0 2px 5px 15px rgba(0,0,0,.6);    
+   }
+/* 
+  boxshadow is that we can have as many of them as we want, comma
+separated */
+
+/* In case , we want only two border , with dashed second border , we can use regular border and outline property for the outer one. 
+Whereas with the box-shadow method , we can only emulate solid borders */
+
+
+/* body {
+    background: yellowgreen;
+    border: 10px solid #655;
+    outline: 5px dashed deeppink;
+    outline-offset: -15px;    
+   }
+
+   h1{
+    padding: 20px;
+    height: 40vh;
+   } */
+/* 
+   Another good thing about outlines is that you can control their distance
+from the boundaries of the element, via outline-offset, which even
+accepts negative values. */
